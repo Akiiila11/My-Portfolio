@@ -38,10 +38,10 @@ const Contact = () => {
         
         <div className='w-full'>
           <form className='w-full flex flex-col justify-center border-2 dark:border-white  px-5 py-6 rounded-3xl mt-10' onSubmit={onSubmitHandler}> 
-            <input type="text" name='fullname' placeholder='Enter Your Name' className='w-full px-10 md:px-6 py-2 md:py-4 border-2 dark:border-white dark:placeholder-gray-500 rounded-2xl mt-3' required />
-            <input type="email" name='email' placeholder='Email address' className='w-full px-10 md:px-6 py-2 md:py-4 border-2 dark:border-white dark:placeholder-gray-500 rounded-2xl mt-3' required />
-            <input type="tel" name='phone' placeholder='Contact number' className='w-full px-10 md:px-6 py-2 md:py-4 border-2 dark:border-white dark:placeholder-gray-500 rounded-2xl mt-3' required />
-            <textarea type="text" rows='4' placeholder='Message' className='w-full px-10 md:px-6 py-2 md:py-4 border-2 dark:border-white dark:placeholder-gray-500 rounded-2xl mt-10 ' required />
+            <input type="text" name='fullname' placeholder='Enter Your Name' className='w-full px-10 md:px-6 py-2 md:py-4 border-2 dark:text-white dark:border-white dark:placeholder-gray-500 rounded-2xl mt-3' required />
+            <input type="email" name='email' placeholder='Email address' className='w-full px-10 md:px-6 py-2 md:py-4 border-2 dark:text-white dark:border-white dark:placeholder-gray-500 rounded-2xl mt-3' required />
+            <input type="tel" name='phone' placeholder='Contact number' className='w-full px-10 md:px-6 py-2 md:py-4 border-2 dark:text-white dark:border-white dark:placeholder-gray-500 rounded-2xl mt-3' required />
+            <textarea type="text" rows='4' placeholder='Message' className='w-full px-10 md:px-6 py-2 md:py-4 border-2 dark:text-white dark:border-white dark:placeholder-gray-500 rounded-2xl mt-10 ' required />
             {/* <div className='w-full mt-8'> */}
               <button className='w-full md:w-fit mt-8 flex items-center justify-center gap-2 bg-linear-to-r from-[#0c0295] to-[#3765aa] px-4 py-3 rounded-xl text-white' type='submit'>Send Message <Send width={17}/></button>
             {/* </div> */}
@@ -60,7 +60,6 @@ const Contact = () => {
           </div>
         </div>
        
-{/* formData.append("access_key", "df92a4b3-e6b1-408d-9a7f-2d104c944203"); */}
        
       </div> 
     </section>

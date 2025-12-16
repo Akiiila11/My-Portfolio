@@ -27,7 +27,7 @@ const Projects = () => {
                 </div>
               </div>
               <div className='w-full h-full md:mb-6 mt-8 md:mt-0'>
-                <button className='bg-linear-to-r from-[#0c0295] to-[#3765aa] flex items-center gap-2 px-3 py-2 rounded-2xl text-sm text-white'>Live Demo <SquareArrowOutUpRight size={15} /></button>
+                <a href={proj.url} className='bg-linear-to-r from-[#0c0295] to-[#3765aa] flex items-center gap-2 px-3 py-2 rounded-2xl text-sm text-white'>Live Demo <SquareArrowOutUpRight size={15} /></a>
               </div>
             </div>
             
