@@ -31,8 +31,6 @@
   }
 }
 
-
-
 .swiper {
   width: 100%;
   padding-top: 50px;
@@ -42,7 +40,6 @@
 .swiper-slide {
   background-position: center;
   background-size: cover;
-  
 }
 
 .swiper-slide img {
@@ -63,5 +60,3 @@
   -webkit-backface-visibility: hidden;
   transform: translateZ(0);
 }
-
-

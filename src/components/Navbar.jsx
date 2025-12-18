@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { assets } from '../assets/assets'
-import { Link } from 'react-router-dom'
 import ThemeToggleBtn from './ThemeToggleBtn'
 import {ChevronRight, Menu, X}  from 'lucide-react'
 
@@ -33,9 +32,7 @@ const Navbar = ({theme, setTheme}) => {
                     <a href="#contact" className='bg-linear-to-r from-[#0c0295] to-[#3765aa] flex items-center text-md px-5 py-2 rounded-3xl text-white text-sm gap-2'>
                         Connect <ChevronRight width={17} />
                     </a>
-                </div>
-            
-                
+                </div>   
             </div>
         </div>
 
@@ -63,9 +60,7 @@ const Navbar = ({theme, setTheme}) => {
                     </ul> 
                 </nav>
             </div>
-
         </div>
-
     </header>
   )
 }

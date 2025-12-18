@@ -18,13 +18,13 @@ const ThemeToggleBtn = ({theme, setTheme}) => {
     },[theme])
 
   return (
-      <button className='cursor-pointer'>
+    <button className='cursor-pointer'>
         {theme === 'dark' ? (
             <img onClick={()=> setTheme('light')} src={assets.sun_logo} className='size-8.5 p-1.5 border border-gray-500 rounded-full' alt='' />
         ) : (
             <img onClick={()=> setTheme('dark')} src={assets.moon_logo} className='size-8.5 p-1.5 border border-gray-500 rounded-full' /> 
         )}
-      </button>
+    </button>
   )
 }
 
