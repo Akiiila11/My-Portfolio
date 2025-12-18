@@ -6,7 +6,7 @@ import { CircleArrowRight, Github, Linkedin, Mail } from 'lucide-react'
 const Footer = ({theme}) => {
 
   return (
-    <section className='w-full z-50 bg-gray-900 dark:bg-gray-900 text-white p-4'>
+    <section className='w-full z-50 bg-gray-900 dark:bg-gray-900 text-white p-4 mt-0 lg:mt-30'>
       <div className='flex flex-col items-center justify-center'> 
         <div className='w-full grid md:grid-cols-1 lg:grid-cols-4 p-5 gap-6'>
           <div className='w-full'>

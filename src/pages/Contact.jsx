@@ -32,7 +32,7 @@ const Contact = () => {
   };
 
   return (       
-    <section id='contact' className='w-full flex items-center justify-center dark:from-black dark:to-black dark:bg-linear-to-r px-4 md:px-6 py-20'>
+    <section id='contact' className='w-full flex items-center justify-center dark:from-black dark:to-black dark:bg-linear-to-r px-4 md:px-6 pt-20 lg:pt-38 pb-10'>
       <div className='max-w-6xl w-full flex flex-col lg:flex-row items-center justify-center gap-10'>
         <div className='w-full'>
           <form className='w-full flex flex-col justify-center border-2 dark:border-white px-5 py-6 rounded-3xl mt-10' onSubmit={onSubmitHandler}> 

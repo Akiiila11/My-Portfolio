@@ -21,7 +21,7 @@ const About = () => {
   
   return ( 
     
-    <section id='about' className='w-full items-center justify-center flex px-4 md:px-6 pt-0 lg:pt-52 dark:bg-linear-to-r dark:from-black dark:to-black'>
+    <section id='about' className='w-full items-center justify-center flex px-4 md:px-6 pt-0 md:pt-20 xl:pt-52 dark:bg-linear-to-r dark:from-black dark:to-black'>
       <div className='max-w-4xl w-full flex items-center'>
         <div className='w-full flex flex-col md:flex-row md:items-center md:justify-center gap-8'>
           <div className=''>
