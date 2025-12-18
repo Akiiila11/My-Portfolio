@@ -14,7 +14,7 @@ export default () => {
     <section id="skills" className="w-full px-4 md:px-6 pt-20 lg:pt-52 flex">
       <div className="w-full flex flex-col items-center justify-center">
         <h1 className="font-bold text-3xl md:text-6xl text-center dark:text-white">What I Work With</h1>
-        <p className="mt-3 dark:text-gray-600 text-gray-700 text-center text-sm md:text-lg">I specialize in building modern web applications using JavaScript, React, and related technologies.</p>
+        <p className="mt-3 dark:text-gray-600 text-gray-700 text-center text-sm md:text-lg">Here are the technologies i work with to build web applications.</p>
         <div className="max-w-6xl w-full flex items-center justify-center">
           <div className="w-full backdrop-blur-lg flex flex-col items-center justify-center">
             <Swiper
