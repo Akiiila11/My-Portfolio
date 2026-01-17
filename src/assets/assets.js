@@ -14,9 +14,9 @@ import vercel from "./vercel.png";
 import netlify from "./netlify.svg";
 import mysql from "./mysql.png";
 import github from "./github.png";
-import proj_3 from "./proj_3.webp";
-import proj_2 from "./proj_2.webp";
-import proj_1 from "./proj_1.webp";
+import proj_3 from "./recipe-search.webp";
+import proj_2 from "./my-shop-cart.webp";
+import proj_1 from "./laud-page.webp";
 import bg_hero from "./bg_hero.jpg";
 
 export const assets = {
